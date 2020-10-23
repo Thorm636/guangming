@@ -1,0 +1,758 @@
+.dn {
+  display: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+img {
+  pointer-events: none;
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+select {
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #38116b;
+}
+.pg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.health .page-rounded {
+  width: 96vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -48vw;
+}
+.health .page-rounded img {
+  width: 96vw;
+  height: 100%;
+  padding: 2.13333333vw 0;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  margin-left: -48vw;
+}
+.health .page {
+  height: 100%;
+}
+.health .page .box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+}
+.health .page .box .page-home-bg {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page .box .page-music {
+  width: 10.4vw;
+  height: 10.4vw;
+  position: absolute;
+  right: 8vw;
+  top: 8.26666667vw;
+}
+.health .page .box .page-logo {
+  width: 16.4vw;
+  height: 22vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -8.2vw;
+  top: 7.6vw;
+}
+.health .page .box .page-slogan {
+  width: 94.93333333vw;
+  height: 44.53333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -47.46666667vw;
+  top: 34.53333333vw;
+}
+.health .page .swiping {
+  width: 100vw;
+  height: 34.66666667vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 7.73333333vw;
+}
+.health .page .swiping .page-let-oneself {
+  width: 65.73333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -32.86666667vw;
+}
+.health .page .swiping .page-polygon {
+  width: 3.73333333vw;
+  height: 1.86666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.86666667vw;
+  top: 19.2vw;
+}
+.health .page .swiping .page-button {
+  width: 31.6vw;
+  height: 14.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -15.8vw;
+  top: 22.93333333vw;
+}
+.health .page1 .page1-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page1 .page-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page1 .character {
+  width: 91.86666667vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -45.93333333vw;
+  padding-top: 30.93333333vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page1 .character .page1-frame {
+  width: 91.86666667vw;
+  height: 106.8vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -45.93333333vw;
+}
+.health .page1 .character .page1-increase {
+  width: 76.8vw;
+  height: 89.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -38.4vw;
+  padding-top: 7.33333333vw;
+}
+.health .page1 .page1-box {
+  width: 100vw;
+  height: 36.8vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 14.66666667vw;
+}
+.health .page1 .page1-box .page1-move {
+  width: 54.4vw;
+  height: 11.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -27.2vw;
+}
+.health .page1 .page1-box .page1-button {
+  width: 34.66666667vw;
+  height: 14.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -17.33333333vw;
+  top: 24vw;
+}
+.health .page2 .page2-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page2 .page2-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page2 .page2-character {
+  width: 91.86666667vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -45.93333333vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page2 .page2-character .page2-group {
+  width: 91.86666667vw;
+  height: 106.8vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -45.93333333vw;
+  top: 23.33333333vw;
+}
+.health .page2 .page2-character .page2-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 0.66666667vw;
+}
+.health .page2 .page2-character .page2-detection-h {
+  width: 11.73333333vw;
+  height: 12.66666667vw;
+  position: absolute;
+  top: 52vw;
+  left: 32.66666667vw;
+}
+.health .page2 .patient {
+  width: 100vw;
+  height: 46.26666667vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 23.2vw;
+}
+.health .page2 .patient .box-patient {
+  display: flex;
+  flex-wrap: wrap;
+}
+.health .page2 .patient .box-patient li {
+  margin: 0 auto;
+  padding-bottom: 3.33333333vw;
+}
+.health .page2 .patient .box-patient li .box-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+.health .page2 .patient .box-patient li .box-one .page2-du {
+  width: 30.4vw;
+  height: 6.66666667vw;
+}
+.health .page2 .patient .box-patient li .box-one .page2-copy-fx {
+  width: 32.93333333vw;
+  height: 9.46666667vw;
+}
+.health .page2 .patient .box-patient li .box-one .page2-copy {
+  width: 31.73333333vw;
+  height: 6.26666667vw;
+}
+.health .page2 .patient .box-patient li .box-one span {
+  border: 1px solid #e0be65;
+  border-radius: 1.06666667vw;
+  font-size: 3.86666667vw;
+  margin: 0 auto;
+  margin-left: 4.93333333vw;
+}
+.health .page2 .patient .box-patient li .page2-text3 {
+  width: 53.06666667vw;
+  height: 4.8vw;
+  margin-top: 0.66666667vw;
+}
+.health .page2 .patient .box-patient li .page2-text2 {
+  width: 61.46666667vw;
+  height: 4.8vw;
+  margin-top: 0.66666667vw;
+}
+.health .page2 .patient .box-patient li .page2-text1 {
+  width: 45.06666667vw;
+  height: 4.53333333vw;
+  margin-top: 0.66666667vw;
+}
+.health .page2 .page2-button {
+  width: 44.66666667vw;
+  height: 14.26666667vw;
+  left: 50%;
+  margin-left: -22.33333333vw;
+  position: absolute;
+  bottom: 5.33333333vw;
+}
+.health .page3 {
+  width: 100%;
+  height: 100%;
+}
+.health .page3 .box {
+  width: 81.86666667vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.93333333vw;
+  padding-top: 42.93333333vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page3 .box .page3-rtb {
+  width: 81.86666667vw;
+  height: 82.8vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.93333333vw;
+}
+.health .page3 .box .page3-bright-eyes {
+  width: 44.4vw;
+  height: 84.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -22.2vw;
+  top: 39.6vw;
+}
+.health .page3 .box-bottom {
+  width: 100vw;
+  height: 39.33333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 25.33333333vw;
+}
+.health .page3 .box-bottom .page3-bject {
+  width: 52.4vw;
+  height: 25.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -26.2vw;
+}
+.health .page3 .box-bottom .page3-gm {
+  width: 44.26666667vw;
+  height: 8.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -22.13333333vw;
+  top: 31.06666667vw;
+}
+.health .page4 {
+  width: 100%;
+  height: 100%;
+}
+.health .page4 .box {
+  width: 81.86666667vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.93333333vw;
+  padding-top: 42.93333333vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page4 .box .page4-rtb {
+  width: 81.86666667vw;
+  height: 82.8vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.93333333vw;
+}
+.health .page4 .box .page4-bright-eyes {
+  width: 44.4vw;
+  height: 84.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -22.2vw;
+  top: 39.6vw;
+}
+.health .page4 .page4-bject {
+  width: 39.86666667vw;
+  height: 25.33333333vw;
+  left: 50%;
+  margin-left: -19.93333333vw;
+  position: absolute;
+  bottom: 40vw;
+}
+.health .page5 {
+  width: 100%;
+  height: 100%;
+}
+.health .page5 .box {
+  width: 81.86666667vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.93333333vw;
+  padding-top: 42.93333333vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page5 .box .page5-rtb {
+  width: 80.53333333vw;
+  height: 83.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -40.26666667vw;
+}
+.health .page5 .box .page5-bright-eyes {
+  width: 43.46666667vw;
+  height: 84.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -21.73333333vw;
+  top: 39.6vw;
+}
+.health .page5 .box-bottom {
+  width: 100vw;
+  height: 39.33333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 25.33333333vw;
+}
+.health .page5 .box-bottom .page5-bject {
+  width: 41.06666667vw;
+  height: 25.2vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -20.53333333vw;
+}
+.health .page5 .box-bottom .page5-gm {
+  width: 44.26666667vw;
+  height: 8.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -22.13333333vw;
+  top: 31.06666667vw;
+}
+.health .page6 .page6-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page6 .page6-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page6 .page6-box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page6 .page6-box .page6-mirror {
+  width: 100vw;
+  height: 95.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page6 .page6-box .page6-mirror .page6-frame {
+  width: 86.26666667vw;
+  height: 98.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -43.13333333vw;
+  top: 26.66666667vw;
+}
+.health .page6 .page6-box .page6-mirror .page6-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page6 .page6-box .page6-mirror .page6-ingot1 {
+  width: 68.8vw;
+  height: 91.73333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -34.4vw;
+  top: 31.06666667vw;
+  z-index: 1;
+}
+.health .page6 .page6-box .page6-mirror .page6-sz {
+  width: 43.73333333vw;
+  height: 37.2vw;
+  position: absolute;
+  top: 87.73333333vw;
+  left: 7.2vw;
+}
+.health .page6 .page6-box .page6-mirror .page6-option {
+  width: 29.06666667vw;
+  height: 45.33333333vw;
+  position: absolute;
+  top: 73.33333333vw;
+  right: 10vw;
+}
+.health .page6 .page6-box .page6-mirror .page6-red-packet {
+  width: 11.86666667vw;
+  height: 12.13333333vw;
+  position: absolute;
+  top: 72.26666667vw;
+  right: 29.2vw;
+}
+.health .page6 .page6-footer {
+  width: 100vw;
+  height: 46.13333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 13.6vw;
+}
+.health .page6 .page6-footer .page6-milk {
+  width: 78.26666667vw;
+  height: 5.06666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -39.13333333vw;
+}
+.health .page6 .page6-footer .page6-cheek {
+  width: 49.6vw;
+  height: 10.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.8vw;
+  top: 7.73333333vw;
+}
+.health .page6 .page6-footer .page6-txet {
+  width: 49.73333333vw;
+  height: 8.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.86666667vw;
+  top: 20.26666667vw;
+}
+.health .page6 .page6-footer .page6-button-again {
+  width: 42.8vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  left: 9.06666667vw;
+}
+.health .page6 .page6-footer .page6-button-save {
+  width: 31.73333333vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  right: 10.4vw;
+}
+.health .page7 .page7-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page7 .page7-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page7 .page7-box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page7 .page7-box .page7-mirror {
+  width: 100vw;
+  height: 100.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-frame {
+  width: 84.26666667vw;
+  height: 98.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -42.13333333vw;
+  top: 26.66666667vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star4 {
+  width: 34.8vw;
+  height: 30.8vw;
+  position: absolute;
+  top: 22.66666667vw;
+  right: 3.06666667vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star {
+  width: 7.86666667vw;
+  height: 8.8vw;
+  position: absolute;
+  top: 67.46666667vw;
+  left: 20vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star3 {
+  width: 12.93333333vw;
+  height: 14.53333333vw;
+  position: absolute;
+  top: 45.33333333vw;
+  right: 18.66666667vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star2 {
+  width: 7.73333333vw;
+  height: 8.53333333vw;
+  position: absolute;
+  top: 60vw;
+  right: 17.06666667vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-option {
+  width: 23.6vw;
+  height: 50.26666667vw;
+  position: absolute;
+  top: 80.13333333vw;
+  right: 15.73333333vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star5 {
+  width: 34.8vw;
+  height: 8.26666667vw;
+  position: absolute;
+  top: 88.93333333vw;
+  left: 8.93333333vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star-left {
+  width: 42.53333333vw;
+  height: 20.13333333vw;
+  position: absolute;
+  top: 103.33333333vw;
+  left: 2.53333333vw;
+}
+.health .page7 .page7-box .page7-mirror .page7-star-right {
+  width: 42.4vw;
+  height: 20vw;
+  position: absolute;
+  top: 98.4vw;
+  right: 2.13333333vw;
+}
+.health .page7 .page7-footer {
+  width: 100vw;
+  height: 46.13333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 13.6vw;
+}
+.health .page7 .page7-footer .page7-milk {
+  width: 78.26666667vw;
+  height: 5.06666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -39.13333333vw;
+}
+.health .page7 .page7-footer .page7-cheek {
+  width: 49.6vw;
+  height: 10.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.8vw;
+  top: 7.73333333vw;
+}
+.health .page7 .page7-footer .page7-txet {
+  width: 67.33333333vw;
+  height: 8.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -33.66666667vw;
+  top: 20.26666667vw;
+}
+.health .page7 .page7-footer .page7-button-again {
+  width: 42.8vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  left: 9.06666667vw;
+}
+.health .page7 .page7-footer .page7-button-save {
+  width: 31.73333333vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  right: 10.4vw;
+}
+.health .page8 .page8-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page8 .page8-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page8 .page8-box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page8 .page8-box .page8-mirror {
+  width: 100vw;
+  height: 100.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page8 .page8-box .page8-mirror .page8-frame {
+  width: 84.26666667vw;
+  height: 98.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -42.13333333vw;
+  top: 26.93333333vw;
+}
+.health .page8 .page8-box .page8-mirror .page8-group {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page8 .page8-box .page8-mirror .page8-group2 {
+  width: 64vw;
+  height: 57.2vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -32vw;
+}
