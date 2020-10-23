@@ -1,1 +1,2 @@
-http://ljj.yushuo.mobi/2020-10-20+%E7%BD%97%E4%BD%B3+%E9%A1%B9%E7%9B%AE+h5/
+http://ljj.yushuo.mobi/gm/
+
