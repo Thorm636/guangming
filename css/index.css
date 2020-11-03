@@ -728,11 +728,8 @@ body {
   box-sizing: border-box;
 }
 .health .page8 .page8-box .page8-mirror {
-  width: 100vw;
-  height: 100.26666667vw;
-  position: absolute;
-  left: 50%;
-  margin-left: -50vw;
+  width: 100%;
+  height: 100%;
 }
 .health .page8 .page8-box .page8-mirror .page8-frame {
   width: 84.26666667vw;
@@ -755,4 +752,593 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -32vw;
+  top: 48.26666667vw;
+}
+.health .page8 .page8-box .page8-mirror .page8-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page8 .page8-box .page8-foliage {
+  width: 100vw;
+  height: 46.66666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 0.13333333vw;
+}
+.health .page8 .page8-box .page8-foliage .page8-smart-left {
+  width: 100vw;
+  height: 195.6vw;
+}
+.health .page8 .page8-box .page8-foliage .page8-smart-right {
+  width: 51.46666667vw;
+  height: 46.26666667vw;
+  position: absolute;
+  top: 82.13333333vw;
+  right: 0;
+}
+.health .page8 .page8-box .page8-foliage .page8-option {
+  width: 35.6vw;
+  height: 41.86666667vw;
+  position: absolute;
+  top: 88.26666667vw;
+  right: 10vw;
+}
+.health .page8 .page8-footer {
+  width: 100vw;
+  height: 46.13333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 13.6vw;
+}
+.health .page8 .page8-footer .page8-milk {
+  width: 78.26666667vw;
+  height: 5.06666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -39.13333333vw;
+}
+.health .page8 .page8-footer .page8-cheek {
+  width: 49.6vw;
+  height: 10.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.8vw;
+  top: 7.73333333vw;
+}
+.health .page8 .page8-footer .page8-txet {
+  width: 54.13333333vw;
+  height: 8.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -27.06666667vw;
+  top: 20.26666667vw;
+}
+.health .page8 .page8-footer .page8-button-again {
+  width: 42.8vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  left: 9.06666667vw;
+}
+.health .page8 .page8-footer .page8-button-save {
+  width: 31.73333333vw;
+  height: 14.26666667vw;
+  position: absolute;
+  top: 34.26666667vw;
+  right: 10.4vw;
+}
+.health .page9 .page9-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page9 .page9-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page9 .page9-box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page9 .page9-box .page9-mirror {
+  width: 100%;
+  height: 100%;
+}
+.health .page9 .page9-box .page9-mirror .page9-frame {
+  width: 84.26666667vw;
+  height: 98.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -42.13333333vw;
+  top: 26.93333333vw;
+}
+.health .page9 .page9-box .page9-mirror .page9-group {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page9 .page9-box .page9-mirror .page9-group2 {
+  width: 64vw;
+  height: 57.2vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -32vw;
+  top: 48.26666667vw;
+}
+.health .page9 .page9-box .page9-mirror .page9-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page9 .page9-box .page9-foliage {
+  width: 100vw;
+  height: 46.66666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  top: 0.13333333vw;
+}
+.health .page9 .page9-box .page9-foliage .page9-smart-left {
+  width: 100vw;
+  height: 195.6vw;
+}
+.health .page9 .page9-box .page9-foliage .page9-smart-right {
+  width: 51.46666667vw;
+  height: 46.26666667vw;
+  position: absolute;
+  top: 82.13333333vw;
+  right: 0;
+}
+.health .page9 .page9-box .page9-foliage .page9-option {
+  width: 35.6vw;
+  height: 41.86666667vw;
+  position: absolute;
+  top: 88.26666667vw;
+  right: 10vw;
+}
+.health .page9 .page9-footer {
+  width: 100vw;
+  height: 64.66666667vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+}
+.health .page9 .page9-footer .page9-milk {
+  width: 78.26666667vw;
+  height: 5.06666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -39.13333333vw;
+}
+.health .page9 .page9-footer .page9-cheek {
+  width: 49.6vw;
+  height: 10.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.8vw;
+  top: 7.73333333vw;
+}
+.health .page9 .page9-footer .page9-txet {
+  width: 54.13333333vw;
+  height: 8.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -27.06666667vw;
+  top: 20.26666667vw;
+}
+.health .page9 .page9-footer .box-footer {
+  width: 26.66666667vw;
+  height: 25.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -17.66666667vw;
+  top: 33.33333333vw;
+}
+.health .page9 .page9-footer .box-footer .page9-button2 {
+  width: 35.33333333vw;
+  height: 12.66666667vw;
+}
+.health .page9 .page9-footer .page9-left-xj {
+  width: 15.73333333vw;
+  height: 15.73333333vw;
+  position: absolute;
+  top: 42vw;
+  left: 7.46666667vw;
+}
+.health .page9 .page9-footer .page-right-xj {
+  width: 50vw;
+  height: 50vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.health .page10 .page10-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page10 .page10-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page10 .page10-box {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.health .page10 .page10-box .page10-mirror {
+  width: 100vw;
+  height: 100.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-frame {
+  width: 84.26666667vw;
+  height: 98.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -42.13333333vw;
+  top: 26.66666667vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-character {
+  width: 100vw;
+  height: 195.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -50vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star4 {
+  width: 34.8vw;
+  height: 30.8vw;
+  position: absolute;
+  top: 22.66666667vw;
+  right: 3.06666667vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star {
+  width: 7.86666667vw;
+  height: 8.8vw;
+  position: absolute;
+  top: 67.46666667vw;
+  left: 20vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star3 {
+  width: 12.93333333vw;
+  height: 14.53333333vw;
+  position: absolute;
+  top: 45.33333333vw;
+  right: 18.66666667vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star2 {
+  width: 7.73333333vw;
+  height: 8.53333333vw;
+  position: absolute;
+  top: 60vw;
+  right: 17.06666667vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-option {
+  width: 23.6vw;
+  height: 50.26666667vw;
+  position: absolute;
+  top: 80.13333333vw;
+  right: 15.73333333vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star5 {
+  width: 34.8vw;
+  height: 8.26666667vw;
+  position: absolute;
+  top: 88.93333333vw;
+  left: 8.93333333vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star-left {
+  width: 42.53333333vw;
+  height: 20.13333333vw;
+  position: absolute;
+  top: 103.33333333vw;
+  left: 2.53333333vw;
+}
+.health .page10 .page10-box .page10-mirror .page10-star-right {
+  width: 42.4vw;
+  height: 20vw;
+  position: absolute;
+  top: 98.4vw;
+  right: 2.13333333vw;
+}
+.health .page10 .page10-footer {
+  width: 100vw;
+  height: 64.66666667vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+}
+.health .page10 .page10-footer .page10-milk {
+  width: 78.26666667vw;
+  height: 5.06666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -39.13333333vw;
+}
+.health .page10 .page10-footer .page10-cheek {
+  width: 49.6vw;
+  height: 10.4vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -24.8vw;
+  top: 7.73333333vw;
+}
+.health .page10 .page10-footer .page10-txet {
+  width: 67.33333333vw;
+  height: 8.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -33.66666667vw;
+  top: 20.26666667vw;
+}
+.health .page10 .page10-footer .page10-txet {
+  width: 54.13333333vw;
+  height: 8.13333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -27.06666667vw;
+  top: 20.26666667vw;
+}
+.health .page10 .page10-footer .box10-footer {
+  width: 26.66666667vw;
+  height: 25.33333333vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -17.66666667vw;
+  top: 33.33333333vw;
+}
+.health .page10 .page10-footer .box10-footer .page9-button2 {
+  width: 35.33333333vw;
+  height: 12.66666667vw;
+}
+.health .page10 .page10-footer .page10-left-xj2 {
+  width: 15.73333333vw;
+  height: 15.73333333vw;
+  position: absolute;
+  top: 42vw;
+  left: 7.46666667vw;
+}
+.health .page10 .page10-footer .page-right-xj2 {
+  width: 50vw;
+  height: 50vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.health .page11 .page11-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page11 .page11-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page11 .page11-box {
+  width: 94.93333333vw;
+  height: 104vw;
+  left: 50%;
+  margin-left: -47.46666667vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -52vw;
+}
+.health .page12 .page12-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page12 .page12-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page12 .page12-frame {
+  width: 73.86666667vw;
+  height: 85.86666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -36.26666667vw;
+  top: 26.93333333vw;
+}
+.health .page12 .page12-hz {
+  width: 96.26666667vw;
+  height: 91.86666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -48.13333333vw;
+  top: 58vw;
+}
+.health .page12 .booton-box {
+  width: 100vw;
+  height: 42.66666667vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 13.06666667vw;
+}
+.health .page12 .booton-box .page12-text {
+  width: 67.46666667vw;
+  height: 24.66666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -33.73333333vw;
+}
+.health .page12 .booton-box .page12-button {
+  width: 31.73333333vw;
+  height: 14.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -15.86666667vw;
+  top: 30vw;
+}
+.health .page13 .page13-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page13 .page13-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page13 .page13-box {
+  width: 94.93333333vw;
+  height: 104vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -47.46666667vw;
+  top: 28.66666667vw;
+}
+.health .page13 .page13-footer {
+  width: 100vw;
+  height: 43.33333333vw;
+  position: absolute;
+  left: 0vw;
+  bottom: 13.33333333vw;
+}
+.health .page13 .page13-footer .page13-ip {
+  width: 68.93333333vw;
+  height: 24vw;
+}
+.health .page13 .page13-footer .page13-ip .box {
+  width: 68.93333333vw;
+  height: 5.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -34.46666667vw;
+}
+.health .page13 .page13-footer .page13-ip .box input {
+  width: 56.4vw;
+  height: 6.26666667vw;
+  position: absolute;
+  right: 0;
+  border: none;
+  font-size: 3.33333333vw;
+  color: #c2b8b8;
+  padding-left: 1.33333333vw;
+  border-bottom: 1px solid #ccc;
+}
+.health .page13 .page13-footer .page13-ip .box span {
+  font-size: 5.06666667vw;
+  color: #fff;
+}
+.health .page13 .page13-footer .page13-ip .box2 {
+  width: 68.93333333vw;
+  height: 5.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -34.46666667vw;
+  top: 9.33333333vw;
+}
+.health .page13 .page13-footer .page13-ip .box2 input {
+  width: 56.4vw;
+  height: 6.26666667vw;
+  position: absolute;
+  right: 0;
+  border: none;
+  font-size: 3.33333333vw;
+  color: #c2b8b8;
+  padding-left: 1.33333333vw;
+  border-bottom: 1px solid #ccc;
+}
+.health .page13 .page13-footer .page13-ip .box2 span {
+  font-size: 5.06666667vw;
+  color: #fff;
+}
+.health .page13 .page13-footer .page13-ip .box3 {
+  width: 68.93333333vw;
+  height: 5.6vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -34.46666667vw;
+  top: 18.66666667vw;
+}
+.health .page13 .page13-footer .page13-ip .box3 input {
+  width: 46vw;
+  height: 6.26666667vw;
+  position: absolute;
+  right: 0;
+  border: none;
+  font-size: 3.33333333vw;
+  color: #c2b8b8;
+  padding-left: 1.33333333vw;
+  border-bottom: 1px solid #ccc;
+}
+.health .page13 .page13-footer .page13-ip .box3 span {
+  font-size: 5.06666667vw;
+  color: #fff;
+}
+.health .page13 .page13-footer .page13-button {
+  width: 31.73333333vw;
+  height: 14.26666667vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -15.86666667vw;
+  top: 31.06666667vw;
+}
+.health .page14 .page14-logo {
+  width: 12.93333333vw;
+  height: 17.2vw;
+  position: absolute;
+  left: 10.93333333vw;
+  top: 10vw;
+}
+.health .page14 .page14-music {
+  width: 10.53333333vw;
+  height: 10.53333333vw;
+  position: absolute;
+  right: 7.73333333vw;
+  top: 9.33333333vw;
+}
+.health .page14 .page14-box {
+  width: 94.93333333vw;
+  height: 104vw;
+  left: 50%;
+  margin-left: -47.46666667vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -52vw;
 }

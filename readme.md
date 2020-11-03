@@ -1,2 +1,2 @@
-http://ljj.yushuo.mobi/gm/
+http://ljj.yushuo.mobi/light
 
